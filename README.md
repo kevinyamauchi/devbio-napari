@@ -103,11 +103,11 @@ conda install mamba -c conda-forge
 Afterwards, create the environments like above but using mamba instead of conda.
 
 ```
-mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
+mamba create --name devbio-napari-env python=3.9 devbio-napari -c pytorch -c conda-forge
 ```
 alternatively:
 ```
-conda create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
+conda create --name devbio-napari-env python=3.9 devbio-napari -c pytorch -c conda-forge
 ```
 
 Afterwards, activate the environment like this:
